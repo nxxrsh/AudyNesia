@@ -1,5 +1,5 @@
 <h1 align="center">
-<img alt="AudyNesia" height="260" width="100%" src="https://telegra.ph/file/33c7df54ffb50c87209b0.png"
+<img alt="AudyNesia" height="100%" width="100%" src="https://telegra.ph/file/33c7df54ffb50c87209b0.png"
    align="right">
 <br />
 </h1>
