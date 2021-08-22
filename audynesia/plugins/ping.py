@@ -2,7 +2,7 @@ import asyncio
 from datetime import datetime
 
 from ..core.managers import edit_or_reply
-from . import PING_PIC, PING_TEXT, udy, hmention, reply_id
+from . import PING_PIC, PING_TEXT, hmention, reply_id, udy
 
 plugin_category = "tools"
 

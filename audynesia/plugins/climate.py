@@ -14,7 +14,7 @@ from pytz import timezone as tz
 from ..Config import Config
 from ..helpers.utils import _format
 from ..sql_helper.globals import addgvar, gvarstatus
-from . import udy, edit_or_reply, logging, reply_id
+from . import edit_or_reply, logging, reply_id, udy
 
 plugin_category = "utils"
 

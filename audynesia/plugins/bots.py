@@ -1,7 +1,7 @@
 # Credits Plugins @Infinity20998
 
 from ..helpers.utils import reply_id
-from . import udy, edit_delete, reply_id
+from . import edit_delete, reply_id, udy
 
 plugin_category = "bot"
 

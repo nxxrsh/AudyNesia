@@ -1,4 +1,4 @@
-from . import ALIVE_NAME, udy, edit_or_reply
+from . import ALIVE_NAME, edit_or_reply, udy
 
 plugin_category = "fun"
 

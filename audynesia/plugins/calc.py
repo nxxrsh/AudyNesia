@@ -2,7 +2,7 @@ import io
 import sys
 import traceback
 
-from . import udy, edit_or_reply
+from . import edit_or_reply, udy
 
 plugin_category = "utils"
 

@@ -10,7 +10,7 @@ from telethon.tl.types import ChannelParticipantsAdmins
 from ..Config import Config
 from ..sql_helper.gban_sql_helper import get_gbanuser, is_gbanned
 from ..utils import is_admin
-from . import BOTLOG, BOTLOG_CHATID, udy, edit_or_reply, logging, spamwatch
+from . import BOTLOG, BOTLOG_CHATID, edit_or_reply, logging, spamwatch, udy
 
 LOGS = logging.getLogger(__name__)
 plugin_category = "admin"

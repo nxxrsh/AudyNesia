@@ -5,7 +5,7 @@ import json
 import requests
 
 from ..sql_helper.globals import gvarstatus
-from . import udy, edit_delete, edit_or_reply
+from . import edit_delete, edit_or_reply, udy
 
 plugin_category = "extra"
 
