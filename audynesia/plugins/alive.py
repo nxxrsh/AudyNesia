@@ -37,7 +37,7 @@ async def amireallyalive(event):
     reply_to_id = await reply_id(event)
     uptime = await get_readable_time((time.time() - StartTime))
     _, check_sgnirts = check_data_base_heal_th()
-    EMOJI = gvarstatus("ALIVE_EMOJI") or "•"
+    EMOJI = gvarstatus("ALIVE_EMOJI") or "🎕"
     ALIVE_TEXT = gvarstatus("ALIVE_TEXT") or "**AudyNesia Userbot**"
     COD_IMG = (
         gvarstatus("ALIVE_PIC") or "https://telegra.ph/file/33c7df54ffb50c87209b0.png"
@@ -48,15 +48,15 @@ async def amireallyalive(event):
         cod_caption = f"**{ALIVE_TEXT}**\n\n"
         cod_caption += f"⊱ ───────── ஓ๑ ❦ ๑ஓ ───────── ⊰\n"
         cod_caption += f"{EMOJI} `User:` {mention}\n"
-        cod_caption += f"`━─━────༺༻────━─━`\n"
+        cod_caption += f"`       ━─━────༺༻────━─━`\n"
         cod_caption += f"{EMOJI} `Uptime:` __{uptime}__\n"
-        cod_caption += f"`━─━────༺༻────━─━`\n"
+        cod_caption += f"       `━─━────༺༻────━─━`\n"
         cod_caption += f"{EMOJI} `AudyNesia:` __v{codversion}__\n"
-        cod_caption += f"`━─━────༺༻────━─━`\n"
+        cod_caption += f"       `━─━────༺༻────━─━`\n"
         cod_caption += f"{EMOJI} `Telethon:` __v{version.__version__}__\n"
-        cod_caption += f"`━─━────༺༻────━─━`\n"
+        cod_caption += f"       `━─━────༺༻────━─━`\n"
         cod_caption += f"{EMOJI} `Python:` __v{python_version()}__\n"
-        cod_caption += f"`━─━────༺༻────━─━`\n"
+        cod_caption += f"       `━─━────༺༻────━─━`\n"
         cod_caption += f"{EMOJI} `Database:` __{check_sgnirts}__\n"
         cod_caption += f"⊱ ───────── ஓ๑ ❦ ๑ஓ ───────── ⊰\n"
         try:
