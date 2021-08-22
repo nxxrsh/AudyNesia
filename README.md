@@ -232,8 +232,9 @@ and you ended up in a Finale Battle with Telegram and at the end
 * [Md Jisan](https://github.com/Jisan09/) - [badcat](https://github.com/Jisan09/catuserbot) 🇮🇳
 * [LonamiWebs](https://github.com/LonamiWebs/) and [Telethon](https://github.com/LonamiWebs/Telethon)
 # [![Sparkline](https://stars.medv.io/Lonamiwebs/telethon.svg)](https://stars.medv.io/Lonamiwebs/telethon)
-# [GEEZ](https://github.com/vckyou)
-# [Leevina](https://githun.com/levina-lab)
-
+* [GEEZ](https://github.com/vckyou)
+* [Leevina](https://github.com/levina-lab)
+* [KINGACHE](https://github.com/Kingache)
+* [Hexxa-Team](https://github.com/Hexxa-Team)
 # License 
 AudyNesia is License under [The 3-Clause BSD License](https://opensource.org/licenses/BSD-3-Clause)
