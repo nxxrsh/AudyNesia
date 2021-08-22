@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
-# Codex
-# Copyright © 2021, Codex
+# AudyNesia
+# Copyright © 2021, AudyNesia
 # All rights reserved
 #
 
@@ -8,12 +8,12 @@
 _get_ziplink () {
     local regex
     regex='(https?)://github.com/.+/.+'
-    if [[ $UPSTREAM_REPO == "Codex" ]]
+    if [[ $UPSTREAM_REPO == "AudyNesia" ]]
     then
-        echo "VjFaV2IxVXdNVWhVYTJ4VlZrWndUbHBXVW5Oa1ZteFhZVVpPYVUxc1NsbFZNV2hYVjJzeGNXSkVRbFZTUlVwUVdrZDRkMU5HV25GVmF6bFhVbFpaZVZaV1VrcE9WMFY0WTBac1lVMHhjR0ZXTUZaM1kxWnNWbHBJVGs1aVNFSlZWREZvVTFkc1pFWk9TR1JZWWtkb1MxcEdaRmRrUjBwSldYb3dQUT09" | base64 -d
-    elif [[ $UPSTREAM_REPO == "Codex" ]]
+        echo "WVVoU01HTklUVFpNZVRsdVlWaFNiMlJYU1hWWk1qbDBUREpvY0dSSE9YSmhXSEEyWlZNNVFtUlhValZVYlZaNllWZEZkbGxZU21waFIyd3lXbE01ZEZsWVRqQmFXRWwxWlcxc2R3PT0=" | base64 -d
+    elif [[ $UPSTREAM_REPO == "AudyNesia" ]]
     then
-        echo "VjFaV2IxVXdNVWhVYTJ4VlZrWndUbHBXVW5Oa1ZteFhZVVpPYVUxc1NsbFZNV2hYVjJzeGNXSkVRbFZTUlVwUVdrZDRkMU5HV25GVmF6bFhVbFpaZVZaV1VrcE9WMFY0WTBac1lVMHhXbk5aYkdRMFRYYzlQUT09" | base64 -d
+        echo "WVVoU01HTklUVFpNZVRsdVlWaFNiMlJYU1hWWk1qbDBUREpvY0dSSE9YSmhXSEEyWlZNNVFtUlhValZVYlZaNllWZEZkbGxZU21waFIyd3lXbE01ZEZsWVRqQmFXRWwxWlcxc2R3PT0=" | base64 -d
     elif [[ $UPSTREAM_REPO =~ $regex ]]
     then
         if [[ $UPSTREAM_REPO_BRANCH ]]
@@ -23,7 +23,7 @@ _get_ziplink () {
             echo "${UPSTREAM_REPO}/archive/master.zip"
         fi
     else
-        echo "VjFaV2IxVXdNVWhVYTJ4VlZrWndUbHBXVW5Oa1ZteFhZVVpPYVUxc1NsbFZNV2hYVjJzeGNXSkVRbFZTUlVwUVdrZDRkMU5HV25GVmF6bFhVbFpaZVZaV1VrcE9WMFY0WTBac1lVMHhjR0ZXTUZaM1kxWnNWbHBJVGs1aVNFSlZWREZvVTFkc1pFWk9TR1JZWWtkb1MxcEdaRmRrUjBwSldYb3dQUT09" | base64 -d
+        echo "WVVoU01HTklUVFpNZVRsdVlWaFNiMlJYU1hWWk1qbDBUREpvY0dSSE9YSmhXSEEyWlZNNVFtUlhValZVYlZaNllWZEZkbGxZU21waFIyd3lXbE01ZEZsWVRqQmFXRWwxWlcxc2R3PT0=" | base64 -d
     fi
 }
 
@@ -31,14 +31,14 @@ _get_repolink () {
     local regex
     local rlink
     regex='(https?)://github.com/.+/.+'
-    if [[ $UPSTREAM_REPO == "Codex" ]]
+    if [[ $UPSTREAM_REPO == "AudyNesia" ]]
     then
-        rlink=`echo "VjFaV2IxVXdNVWhVYTJ4VlZrWndUbHBXVW5Oa1ZteFhZVVpPYVUxc1NsbFZNV2hYVjJzeGNXSkVRbFZTUlVwUVdrZDRkMU5HV25GVmF6bFhVbFpaZVZaV1VrcE9WMFY0WTBac1lXVnFRVGs9" | base64 -d`
+        rlink=`echo "WVVoU01HTklUVFpNZVRsdVlWaFNiMlJYU1hWWk1qbDBUREpvY0dSSE9YSmhXSEEyWlZNNVFtUlhValZVYlZaNllWZEZkbGxZU21waFIyd3lXbE01ZEZsWVRqQmFXRWwxWlcxc2R3PT0=" | base64 -d`
     elif [[ $UPSTREAM_REPO =~ $regex ]]
     then
         rlink=`echo "${UPSTREAM_REPO}"`
     else
-        rlink=`echo "VjFaV2IxVXdNVWhVYTJ4VlZrWndUbHBXVW5Oa1ZteFhZVVpPYVUxc1NsbFZNV2hYVjJzeGNXSkVRbFZTUlVwUVdrZDRkMU5HV25GVmF6bFhVbFpaZVZaV1VrcE9WMFY0WTBac1lXVnFRVGs9" | base64 -d`
+        rlink=`echo "WVVoU01HTklUVFpNZVRsdVlWaFNiMlJYU1hWWk1qbDBUREpvY0dSSE9YSmhXSEEyWlZNNVFtUlhValZVYlZaNllWZEZkbGxZU21waFIyd3lXbE01ZEZsWVRqQmFXRWwxWlcxc2R3PT0=" | base64 -d`
     fi
     echo "$rlink"
 }
@@ -48,10 +48,10 @@ _run_python_code() {
     python3${pVer%.*} -c "$1"
 }
 
-_run_Codex_git() {
+_run_AudyNesia_git() {
     $(_run_python_code 'from git import Repo
 import sys
-OFFICIAL_UPSTREAM_REPO = "https://github.com/Codex51/Codex"
+OFFICIAL_UPSTREAM_REPO = "https://github.com/AudyNesia51/AudyNesia"
 ACTIVE_BRANCH_NAME = "master"
 repo = Repo.init()
 origin = repo.create_remote("temponame", OFFICIAL_UPSTREAM_REPO)
@@ -75,7 +75,7 @@ repo.heads[ACTIVE_BRANCH_NAME].checkout(True) ')
 
 _set_bot () {
     local zippath
-    zippath="Codex.zip"
+    zippath="AudyNesia.zip"
     echo "  Downloading source code ..."
     wget -q $(_get_ziplink) -O "$zippath"
     echo "  Unpacking Data ..."
@@ -84,19 +84,20 @@ _set_bot () {
     echo "Done"
     echo "  Cleaning ..."
     rm -rf "$zippath"
-    _run_Codex_git
+    _run_AudyNesia_git
     cd $CODPATH
     _run_cod_git
     python3 ../setup/updater.py ../requirements.txt requirements.txt
     chmod -R 755 bin
-    echo "    Starting CodexUserbot    "
+    echo "   ❦ Starting AudyNesia Userbot ❦   "
     echo "
-                    ░█████╗░░█████╗░██████╗░███████╗██╗░░██╗
-                    ██╔══██╗██╔══██╗██╔══██╗██╔════╝╚██╗██╔╝
-                    ██║░░╚═╝██║░░██║██║░░██║█████╗░░░╚███╔╝░
-                    ██║░░██╗██║░░██║██║░░██║██╔══╝░░░██╔██╗░
-                    ╚█████╔╝╚█████╔╝██████╔╝███████╗██╔╝╚██╗
-                    ░╚════╝░░╚════╝░╚═════╝░╚══════╝╚═╝░░╚═╝
+    
+      ░█████╗░██╗░░░██╗██████╗░██╗░░░██╗███╗░░██╗███████╗░██████╗██╗░█████╗░
+      ██╔══██╗██║░░░██║██╔══██╗╚██╗░██╔╝████╗░██║██╔════╝██╔════╝██║██╔══██╗
+      ███████║██║░░░██║██║░░██║░╚████╔╝░██╔██╗██║█████╗░░╚█████╗░██║███████║
+      ██╔══██║██║░░░██║██║░░██║░░╚██╔╝░░██║╚████║██╔══╝░░░╚═══██╗██║██╔══██║
+      ██║░░██║╚██████╔╝██████╔╝░░░██║░░░██║░╚███║███████╗██████╔╝██║██║░░██║
+      ╚═╝░░╚═╝░╚═════╝░╚═════╝░░░░╚═╝░░░╚═╝░░╚══╝╚══════╝╚═════╝░╚═╝╚═╝░░╚═╝
     "
     echo "
 
@@ -107,7 +108,7 @@ _set_bot () {
            ╚██████╔╝██████╔╝███████╗██║░░██║██████╦╝╚█████╔╝░░░██║░░░
            ░╚═════╝░╚═════╝░╚══════╝╚═╝░░╚═╝╚═════╝░░╚════╝░░░░╚═╝░░░
     "
-    python3 -m usercodex & python3 main.py
+    python3 -m userAudyNesia & python3 main.py
 }
 
 _set_bot

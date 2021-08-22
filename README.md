@@ -140,7 +140,7 @@
     <p> Deploy using heroku, and don't forget to register first. </p>
     <p>👇🏻 Click </p>
     <p align="left">
-       <a href="https://dashboard.heroku.com/new?template=https%3A%2F%2Fgithub.com%2FCodex51%2FCodex"><img src="https://img.shields.io/badge/deploy_to_heroku-white?style=for-the-badge&logo=heroku.cd" alt="go_heroku" /></a>
+       <a href="https://dashboard.heroku.com/new?template=https%3A%2F%2Fgithub.com%2Fhitokizzy51%2AudyNesia"><img src="https://img.shields.io/badge/deploy_to_heroku-white?style=for-the-badge&logo=heroku.cd" alt="go_heroku" /></a>
     </p>
     <br>
   </details><br>
@@ -233,7 +233,8 @@ and you ended up in a Finale Battle with Telegram and at the end
 * [Md Jisan](https://github.com/Jisan09/) - [badcat](https://github.com/Jisan09/catuserbot) 🇮🇳
 * [LonamiWebs](https://github.com/LonamiWebs/) and [Telethon](https://github.com/LonamiWebs/Telethon)
 # [![Sparkline](https://stars.medv.io/Lonamiwebs/telethon.svg)](https://stars.medv.io/Lonamiwebs/telethon)
-
+# [GEEZ](https://github.com/vckyou)
+# [Leevina](https://githun.com/levina-lab)
 
 # License 
 Codex is License under [The 3-Clause BSD License](https://opensource.org/licenses/BSD-3-Clause)

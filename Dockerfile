@@ -15,9 +15,9 @@ RUN apt-get -qq install -y \
     opus-tools
 
 # Git clone repository + root 
-RUN git clone https://github.com/Codex51/Codex.git /usr/src/usercodex
-WORKDIR /usr/src/usercodex
-ENV PATH="/usr/src/usercodex/bin:$PATH"
+RUN git clone https://github.com/hitokizzy/AudyNesia /usr/src/audynesia
+WORKDIR /usr/src/audynesia
+ENV PATH="/usr/src/audynesia/bin:$PATH"
 
 # Install requirements
 RUN pip3 install -U -r requirements.txt

@@ -177,7 +177,7 @@ async def queuer(_, message):
                 return await message.reply_text(usage)
             await message.delete()
             if "call" not in db:
-                return await message.reply_text("**Fkg Stupid, Use /joinvc First!**")
+                return await message.reply_text("**Babe, Use /joinvc First!**")
             await message.delete()
             if message.reply_to_message:
                 if message.reply_to_message.audio:
@@ -231,7 +231,7 @@ async def queue_list(_, message):
     queue = db["queue"]
     if queue.empty():
         return await message.reply_text(
-            "🗑️__**Queue Is Empty, Just Like Your Life.**__"
+            "🗑️__**Queue Is Empty, Just Like Your heart.**__"
         )
     if len(message.text.split()) > 1 and message.text.split()[1].lower() == "plformat":
         pl_format = True
@@ -312,7 +312,7 @@ Example:
 
         return await message.reply_text(usage)
     if "call" not in db:
-        return await message.reply_text("**Fkg Stupid, Use /joinvc First!**")
+        return await message.reply_text("**Babe, Use /joinvc First!**")
     if "playlist" not in db:
         db["playlist"] = False
     if "running" in db and db.get("running"):
