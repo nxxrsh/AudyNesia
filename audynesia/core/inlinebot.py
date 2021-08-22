@@ -428,7 +428,7 @@ async def inline_handler(event):  # sourcery no-metrics
                 HP_IMG = random.choice(PIC)
 
             else:
-                HP_IMG = None or "https://telegra.ph/file/57e0e6398132a862cdc05.jpg"
+                HP_IMG = None or "https://telegra.ph/file/33c7df54ffb50c87209b0.png"
             _result = main_menu()
 
             if HP_IMG is not None and HP_IMG.endswith((".jpg", ".jpeg", ".png")):

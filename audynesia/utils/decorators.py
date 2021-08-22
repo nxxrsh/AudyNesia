@@ -158,7 +158,7 @@ def errors_handler(func):
             ftext += result
             pastelink = await paste_message(ftext)
             text = "**AudyNesia Error report**\n\n"
-            link = "[AudyNesia](https://t.me/AudyNesiaSupportGroup)"
+            link = "[AudyNesia](https://t.me/kang_keong17)"
             text += "If you wanna you can report it"
             text += f"- just forward this message {link}.\n"
             text += "Nothing is logged except the fact of error and date\n\n"

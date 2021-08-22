@@ -65,10 +65,10 @@ async def startupmessage():
         if BOTLOG:
             Config.CODLOGO = await udy.tgbot.send_file(
                 BOTLOG_CHATID,
-                "https://telegra.ph/file/c6f5ed625c0fb1c2480f7.jpg",
+                "https://telegra.ph/file/33c7df54ffb50c87209b0.png",
                 caption="**AudyNesia has been started successfully.**",
                 buttons=[
-                    (Button.url("Support", "https://t.me/AudyNesiaSupportGroup"),)
+                    (Button.url("Support", "https://t.me/HexxaUserbotGroup"),)
                 ],
             )
     except Exception as e:
