@@ -83,7 +83,7 @@ async def codalive(StartTime):
         dyno = f"{AppHours}h {AppMinutes}m/{hours}h {minutes}m"
     except Exception as e:
         dyno = e
-    return f" Codex Stats \
+    return f" AudyNesia Stats \
                  \n\n• Database : {check_sgnirts}\
                   \n• Sudo : {sudo}\
                   \n• Uptime : {uptime}\

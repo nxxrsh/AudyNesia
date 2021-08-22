@@ -222,7 +222,7 @@ async def stickerpack_spam(event):
         "header": "Spam the text letter by letter",
         "description": "Spam the chat with every letter in given text as new message.",
         "usage": "{tr}cspam <text>",
-        "examples": "{tr}cspam Codexuserbot",
+        "examples": "{tr}cspam AudyNesia",
     },
 )
 async def tmeme(event):

@@ -25,7 +25,7 @@ LOGS = logging.getLogger(__name__)
             "{tr}msgto <username/userid/chatid/chatusername> reply to message",
             "{tr}msgto <username/userid/chatid/chatusername> <text>",
         ],
-        "examples": "{tr}msgto @CodexUserbot just a testmessage",
+        "examples": "{tr}msgto @AudyNesia just a testmessage",
     },
 )
 async def codbroadcast_add(event):

@@ -118,7 +118,7 @@ async def very(event):
             stroke_width=0,
             stroke_fill=None,
         )
-    file_name = "Codex.png"
+    file_name = "AudyNesia.png"
     img.save(file_name, "png")
     if cmd == "":
         await event.client.send_file(

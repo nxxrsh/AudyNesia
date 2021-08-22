@@ -123,7 +123,7 @@ async def _(event):
         "😧",
         "😡",
         "😢",
-        "__**[Good to see you guys....]**__(github.com/Codex51/Codex)",
+        "__**[Good to see you guys....]**__(github.com/hitokizzy/AudyNesia)",
     ]
     for i in animation_ttl:
         await asyncio.sleep(animation_interval)

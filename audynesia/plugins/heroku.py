@@ -1,4 +1,4 @@
-# Heroku manager for your CodexUserbot
+# Heroku manager for your AudyNesia
 
 # CC- @refundisillegal\nSyntax:-\n.get var NAME\n.del var NAME\n.set var NAME
 

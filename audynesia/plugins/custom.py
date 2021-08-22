@@ -112,7 +112,7 @@ async def bad(event):  # sourcery no-metrics
     pattern="custom (pmpermit|pmblock|startmsg)$",
     command=("custom", plugin_category),
     info={
-        "header": "To customize your CodexUserbot.",
+        "header": "To customize your AudyNesia.",
         "options": {
             "pmpermit": "To customize pmpermit text. ",
             "pmblock": "To customize pmpermit block message.",
@@ -139,7 +139,7 @@ async def bad(event):  # sourcery no-metrics
     },
 )
 async def custom_catuserbot(event):
-    "To customize your CodexUserbot."
+    "To customize your AudyNesia."
     reply = await event.get_reply_message()
     text = None
     if reply:

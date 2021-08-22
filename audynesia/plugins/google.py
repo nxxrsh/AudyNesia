@@ -1,4 +1,4 @@
-# reverse search and google search  plugin for Codex
+# reverse search and google search  plugin for AudyNesia
 import io
 import os
 import re

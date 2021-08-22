@@ -1,4 +1,4 @@
-# CodexUserbot module for getting the event of a event.
+# AudyNesia module for getting the event of a event.
 # Based Plugins Catuserbot
 
 import io

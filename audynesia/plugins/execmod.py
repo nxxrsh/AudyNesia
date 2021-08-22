@@ -36,7 +36,7 @@ async def _(event):
     "To list all plugins in userbot"
     cmd = "ls audynesia/plugins"
     o = (await _codutils.runcmd(cmd))[0]
-    OUTPUT = f"**[Codex's](tg://need_update_for_some_feature/) PLUGINS:**\n{o}"
+    OUTPUT = f"**[AudyNesia's](tg://need_update_for_some_feature/) PLUGINS:**\n{o}"
     await edit_or_reply(event, OUTPUT)
 
 
@@ -50,10 +50,10 @@ async def _(event):
     },
 )
 async def _(event):
-    "To show all config values in codexuser"
+    "To show all config values in AudyNesiauser"
     cmd = "env"
     o = (await _codutils.runcmd(cmd))[0]
-    OUTPUT = f"**[Codex's](tg://need_update_for_some_feature/) Environment Module:**\n\n\n{o}"
+    OUTPUT = f"**[AudyNesia's](tg://need_update_for_some_feature/) Environment Module:**\n\n\n{o}"
     await edit_or_reply(event, OUTPUT)
 
 

@@ -35,7 +35,7 @@ async def source(e):
     "Source code link of audynesia"
     await edit_or_reply(
         e,
-        "Click [here](https://github.com/Codex51/Codex) to open this bot source code",
+        "Click [here](https://github.com/hitokizzy/AudyNesia) to open this bot source code",
     )
 
 
@@ -46,7 +46,7 @@ async def source(e):
         "header": "Shows the information about an user on GitHub of given username",
         "flags": {"-l": "repo limit : default to 5"},
         "usage": ".github [flag] [username]",
-        "examples": [".github codex51", ".github -l5 codex51"],
+        "examples": [".github hitokizzy", ".github -l5 hitokizzy"],
     },
 )
 async def _(event):

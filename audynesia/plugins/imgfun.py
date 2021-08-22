@@ -143,7 +143,7 @@ async def irotate(event):
         return await edit_delete(event, "**Error**\n" + str(e))
     await event.delete()
     img = io.BytesIO()
-    img.name = "CodexUserbot.png"
+    img.name = "AudyNesia.png"
     image.save(img, "PNG")
     img.seek(0)
     await event.client.send_file(event.chat_id, img, reply_to=reply)
@@ -203,7 +203,7 @@ async def iresize(event):
         return await edit_delete(codevent, f"**Error:** __While resizing.\n{str(e)}__")
     await event.delete()
     img = io.BytesIO()
-    img.name = "CodexUserbot.png"
+    img.name = "AudyNesia.png"
     image.save(img, "PNG")
     img.seek(0)
     await event.client.send_file(event.chat_id, img, reply_to=reply)

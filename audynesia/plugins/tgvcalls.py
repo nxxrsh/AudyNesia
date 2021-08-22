@@ -1,6 +1,6 @@
 """
 @KENZO
-For Codex,
+For AudyNesia,
 Based Plugins from Ultroid.
 If u kang and delete int based from, u gay dude.
 """

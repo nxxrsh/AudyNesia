@@ -33,7 +33,7 @@ async def getTranslate(text, **kwargs):
             "{tr}tl <language code> ; <text>",
             "{tr}tl <language codes>",
         ],
-        "examples": "{tr}tl te ; CodexUserbot is robot.",
+        "examples": "{tr}tl te ; AudyNesia is robot.",
     },
 )
 async def _(event):

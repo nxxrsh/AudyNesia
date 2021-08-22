@@ -1,5 +1,5 @@
 <h1 align="center">
-<img alt="CodeXuser" height="260" width="100%" src="https://github.com/Codex51/Codex/raw/master/resources/photos/CodeXuser.jpg"
+<img alt="AudyNesia" height="260" width="100%" src="https://github.com/hitokizzy/AudyNesia/raw/master/resources/photos/AudyNesia.jpg"
    width="100" height="100"
    align="right">
 <br />
@@ -11,13 +11,13 @@
 ## <h3 align="left"> About </h3>
 
 <details>
-   <summary><strong> What is Codex ? </strong></summary>
+   <summary><strong> What is AudyNesia ? </strong></summary>
    <br>
-   <i> Codex is a <mark>Robot with asyncio python 3 MProto library to interact with Telegram's API as a user or through a bot account (bot API alternative).</mark> Codex based using Telethon Developed by</i> <strong> [ LonamiWebs ] </strong>
+   <i> AudyNesia is a <mark>Robot with asyncio python 3 MProto library to interact with Telegram's API as a user or through a bot account (bot API alternative).</mark> AudyNesia based using Telethon Developed by</i> <strong> [ LonamiWebs ] </strong>
 
    <br><details>
    <br><summary><b> Function </b></summary>
-   <i><b>Codex</b> is very useful for purposes in the telegram application, it can be for personal use or managing a group.</i>
+   <i><b>AudyNesia</b> is very useful for purposes in the telegram application, it can be for personal use or managing a group.</i>
        <br>
        <br>
    <b>Note: <i>If you are already using udy, don't forget to read our disclaimer, thank you.</i> </b>
@@ -74,12 +74,12 @@
 
 </details>
 
-# <h3 align="left"> Codex Stuff </h3>
+# <h3 align="left"> AudyNesia Stuff </h3>
 
 <details>
 
   <summary><b> Get Stuffs </b></summary><br>
-  <p><i> Following are the materials for using Codex (Bot)</i>
+  <p><i> Following are the materials for using AudyNesia (Bot)</i>
   </p>
   <br>
   <details>
@@ -87,13 +87,13 @@
     <p align="left">
        <i> (Telethon) No Using API_ID & API_HASH </i>
        <p> 👇🏻 Click </p>
-       <a href="https://replit.com/@KENZO404/Codex-strGen?v=1"><img src="https://img.shields.io/badge/generate_string-via_replit-white?style=for-the-badge&logo=repl.it" alt="generate_string" /></a>
+       <a href="https://replit.com/@KENZO404/AudyNesia-strGen?v=1"><img src="https://img.shields.io/badge/generate_string-via_replit-white?style=for-the-badge&logo=repl.it" alt="generate_string" /></a>
     </p>
     <br>
     <p align="left">
        <i> (Pyrogram & Telethon) Using API_ID & API_HASH </i>
        <p> 👇🏻 Click </p>
-       <a href="https://replit.com/@KENZO404/CodexString?v=1"><img src="https://img.shields.io/badge/run-string__session.py-blue?style=for-the-badge&logo=repl.it" alt="generate_string" /></a>
+       <a href="https://replit.com/@KENZO404/AudyNesiaString?v=1"><img src="https://img.shields.io/badge/run-string__session.py-blue?style=for-the-badge&logo=repl.it" alt="generate_string" /></a>
     </p>
     <br>
        <p align="left">
@@ -101,7 +101,7 @@
           <strong> For the first time, please copy below first. </strong><br>
           <br><code> pkg update -y && pkg upgrade && pkg install wget python </code><br>
           <br><br><i> Telethon & Pyrogram (P for Pyrogram and T for Telethon) </i><br>
-          <br><code> pip install telethon && wget https://raw.githubusercontent.com/Codex51/Codex/master/mainstring.py && python mainstring.py </code>
+          <br><code> pip install telethon && wget https://raw.githubusercontent.com/hitokizzy/AudyNesia/master/mainstring.py && python mainstring.py </code>
         </p>
   </details><br>
 
@@ -134,7 +134,7 @@
 
 <details>
   <br>
-  <p> Don't forget to take a look at the enforcement variables, in Codex Stuffs or in the example config file.</p>
+  <p> Don't forget to take a look at the enforcement variables, in AudyNesia Stuffs or in the example config file.</p>
   <br>
   <details><summary><b> Deploy using Heroku </b></summary> <br>
     <p> Deploy using heroku, and don't forget to register first. </p>
@@ -163,12 +163,12 @@
   <p><b>7. And go back to your user: </b></p>
   <p><code> exit </code></p><br>
   <p><i>Now, the DB_URI will be:</i></p>
-  <p><code> postgresql://postgres:yourpasswordhere@localhost:5432/Codex </code></p>
+  <p><code> postgresql://postgres:yourpasswordhere@localhost:5432/AudyNesia </code></p>
   <p><i> or use <a href="https://www.elephantsql.com/">elephantsql</a> if you wanna use that</i></p><br>
   <p><b>8. Clone the repository:</b></p>
-  <p><code> git clone https://github.com./Codex51/Codex </code></p><br>
+  <p><code> git clone https://github.com./hitokizzy/AudyNesia </code></p><br>
   <p><b>9. Change dir to the cloned folder:</b></p>
-  <p><code>cd codexuser </code></p><br>
+  <p><code>cd AudyNesiauser </code></p><br>
   <p><b>10. Create your config.py.</b></p>
   <p><i>by renaming the exampleconfig.py</i></p>
   <p><code> mv exampleconfig.py config.py </code></p>
@@ -237,4 +237,4 @@ and you ended up in a Finale Battle with Telegram and at the end
 # [Leevina](https://githun.com/levina-lab)
 
 # License 
-Codex is License under [The 3-Clause BSD License](https://opensource.org/licenses/BSD-3-Clause)
+AudyNesia is License under [The 3-Clause BSD License](https://opensource.org/licenses/BSD-3-Clause)

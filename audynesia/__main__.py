@@ -15,7 +15,7 @@ from .utils import (
     verifyLoggerGroup,
 )
 
-LOGS = logging.getLogger("CodexUserbot")
+LOGS = logging.getLogger("AudyNesia")
 
 print(audynesia.__copyright__)
 print("Licensed under the terms of the " + audynesia.__license__)
@@ -31,24 +31,24 @@ except Exception as e:
     sys.exit()
 
 
-class CodexCheck:
+class AudyNesiaCheck:
     def __init__(self):
         self.sucess = True
 
 
-Codexcheck = CodexCheck()
+AudyNesiacheck = AudyNesiaCheck()
 
 
 async def startup_process():
     check = await ipchange()
     if check is not None:
-        Codexcheck.sucess = False
+        AudyNesiacheck.sucess = False
         return
     await verifyLoggerGroup()
     await load_plugins("plugins")
     await load_plugins("assistant")
     print("========================================")
-    print("Okay, Codex is Officially Working.!!!")
+    print("Okay, AudyNesia is Officially Working.!!!")
     print(
         f"Now type {cmdhr}alive to see message if udy is live\
         \nIf you need assistance."
@@ -61,7 +61,7 @@ async def startup_process():
     if PM_LOGGER_GROUP_ID != -100:
         await add_bot_to_logger_group(PM_LOGGER_GROUP_ID)
     await startupmessage()
-    Codexcheck.sucess = True
+    AudyNesiacheck.sucess = True
     return
 
 
@@ -69,7 +69,7 @@ udy.loop.run_until_complete(startup_process())
 
 if len(sys.argv) not in (1, 3, 4):
     udy.disconnect()
-elif not Codexcheck.sucess:
+elif not AudyNesiacheck.sucess:
     if HEROKU_APP is not None:
         HEROKU_APP.restart()
 else:

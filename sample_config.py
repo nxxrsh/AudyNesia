@@ -20,7 +20,7 @@ class Config(object):
     API_HASH = os.environ.get("API_HASH") or None
     # Datbase url heroku sets it automatically else get this from elephantsql
     DB_URI = os.environ.get("DATABASE_URL", None)
-    # Get this value by running python3 string_session.py at file resources or https://replit.com/@KENZO404/Codex-strGen#main.py
+    # Get this value by running python3 string_session.py at file resources or https://replit.com/@KENZO404/AudyNesia-strGen#main.py
     STRING_SESSION = os.environ.get("STRING_SESSION", None)
     # Telegram BOT Token and bot username from @BotFather
     TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN") or os.environ.get(
@@ -29,9 +29,9 @@ class Config(object):
     TG_BOT_USERNAME = None
     # get this value from http://www.timezoneconverter.com/cgi-bin/findzone.tzc
     TZ = os.environ.get("TZ", "Asia/Kolkata")
-    # set this with required Codex repo link
+    # set this with required AudyNesia repo link
     UPSTREAM_REPO = os.environ.get(
-        "UPSTREAM_REPO", "https://github.com/Codex51/Codex.git"
+        "UPSTREAM_REPO", "https://github.com/hitokizzy/AudyNesia.git"
     )
 
     # BASIC and MAIN CONFIG VARS

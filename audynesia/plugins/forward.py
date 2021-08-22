@@ -89,7 +89,7 @@ async def _(event):
     info={
         "header": "Split the word and forwards each letter from previous messages in that group",
         "usage": "{tr}fpost <text>",
-        "examples": "{tr}fpost codexserbot",
+        "examples": "{tr}fpost AudyNesiaserbot",
     },
 )
 async def _(event):

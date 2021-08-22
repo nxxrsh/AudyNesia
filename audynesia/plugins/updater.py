@@ -121,7 +121,7 @@ async def push(event, repo, ups_rem, ac_br, txt):
     if HEROKU_APP_NAME is None:
         await event.edit(
             "`Please set up the` **HEROKU_APP_NAME** `Var`"
-            " to be able to deploy your udy...`"
+            " to be able to deploy your AudyNesia Userbot...`"
         )
         repo.__del__()
         return
@@ -131,11 +131,11 @@ async def push(event, repo, ups_rem, ac_br, txt):
             break
     if heroku_app is None:
         await event.edit(
-            f"{txt}\n" "`Invalid Heroku credentials for deploying Codex dyno.`"
+            f"{txt}\n" "`Invalid Heroku credentials for deploying AudyNesia dyno.`"
         )
         return repo.__del__()
     xedoc = await event.edit(
-        "`Codex dyno build in progress, please wait until the process finishes it usually takes 4 to 5 minutes .`"
+        "`AudyNesia dyno build in progress, please wait until the process finishes it usually takes 4 to 5 minutes .`"
     )
     try:
         ulist = get_collectionlist_items()
@@ -187,7 +187,7 @@ async def push(event, repo, ups_rem, ac_br, txt):
     pattern="update( -pull| -push|$)",
     command=("update", plugin_category),
     info={
-        "header": "To update CodexUserbot.",
+        "header": "To update AudyNesia.",
         "description": "I recommend you to do update -push atlest once a week.",
         "options": {
             "-pull": "Will update bot but requirements doesnt update.",
@@ -198,7 +198,7 @@ async def push(event, repo, ups_rem, ac_br, txt):
             "{tr}update",
             "{tr}update -pull",
             "{tr}update -push",
-            "{tr}udy -master",
+            "{tr}AudyNesia -master",
         ],
     },
 )
@@ -256,12 +256,12 @@ async def upstream(event):
     changelog = await gen_chlog(repo, f"HEAD..upstream/{ac_br}")
     # Special case for deploy
     if conf == "-push":
-        await event.edit("`Deploying Codex, please wait...`")
+        await event.edit("`Deploying AudyNesia, please wait...`")
         await push(event, repo, ups_rem, ac_br, txt)
         return
     if changelog == "" and not force_update:
         await event.edit(
-            "\n`Codex is`  **up-to-date**  `with`  " f"**{UPSTREAM_REPO_BRANCH}**\n"
+            "\n`AudyNesia is`  **up-to-date**  `with`  " f"**{UPSTREAM_REPO_BRANCH}**\n"
         )
         return repo.__del__()
     if conf == "" and not force_update:
@@ -274,16 +274,16 @@ async def upstream(event):
     if force_update:
         await event.edit("`Force-Syncing to latest stable bot code, please wait...`")
     if conf == "-pull":
-        await event.edit("`Updating udy, please wait...`")
+        await event.edit("`Updating AudyNesia, please wait...`")
         await pull(event, repo, ups_rem, ac_br)
     return
 
 
 @udy.cod_cmd(
-    pattern="udy -master$",
-    command=("udy", plugin_category),
+    pattern="AudyNesia -master$",
+    command=("AudyNesia", plugin_category),
     info={
-        "header": "To update to Codex (For vEg peeps).",
+        "header": "To update to AudyNesia (For vEg peeps).",
         "description": "I recommend you to do update -push atlest once a week.",
         "options": {
             "udy -master": "to update to the original repository, if you fork.",
@@ -294,7 +294,7 @@ async def upstream(event):
     },
 )
 async def variable(var):
-    "To update to to the CodexRepository."
+    "To update to to the AudyNesia Repository."
     if Config.HEROKU_API_KEY is None:
         return await edit_delete(
             var,
@@ -309,4 +309,4 @@ async def variable(var):
         )
     heroku_var = app.config()
     await edit_or_reply(var, f"`Switch... wait for 2-3 minutes.`")
-    heroku_var["UPSTREAM_REPO"] = "https://github.com/Codex51/Codex"
+    heroku_var["UPSTREAM_REPO"] = "https://github.com/hitokizzy/AudyNesia"

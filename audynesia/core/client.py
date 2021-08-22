@@ -140,9 +140,9 @@ class udyclient(TelegramClient):
                         pastelink = await paste_message(
                             ftext, pastetype="s", markdown=False
                         )
-                        text = "**Codex Error report**\n\n"
+                        text = "**AudyNesia Error report**\n\n"
                         text += "If you wanna you can report it"
-                        link = "[here](https://t.me/CodexSupportGroup)"
+                        link = "[here](https://t.me/AudyNesiaSupportGroup)"
                         text += f"- just forward this message {link}.\n"
                         text += (
                             "Nothing is logged except the fact of error and date\n\n"
@@ -257,9 +257,9 @@ class udyclient(TelegramClient):
                         pastelink = await paste_message(
                             ftext, pastetype="s", markdown=False
                         )
-                        text = "**Codex Error report**\n\n"
+                        text = "**AudyNesia Error report**\n\n"
                         text += "If you wanna you can report it"
-                        link = "[here](https://t.me/CodexSupportGroup)"
+                        link = "[here](https://t.me/AudyNesiaSupportGroup)"
                         text += f"- just forward this message {link}.\n"
                         text += (
                             "Nothing is logged except the fact of error and date\n\n"

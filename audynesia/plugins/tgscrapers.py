@@ -1,6 +1,6 @@
 """
 @KENZO
-For Codex,
+For AudyNesia,
 Based Plugins from Ultroid & GeezUserBot.
 Credits : @Abdul & @Vckyouu
 If u kang and delete int based from, u gay dude.
@@ -74,7 +74,7 @@ async def get_chat_info(event):
     info={
         "header": "Dredge up members from other groups by using the group username",
         "usage": "{tr}scrpall <Username Group>",
-        "example": "{tr}scrpall @codexsupportgroup",
+        "example": "{tr}scrpall @AudyNesiasupportgroup",
     },
     groups_only=True,
 )

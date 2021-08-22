@@ -28,7 +28,7 @@ plugin_category = "fun"
     info={
         "header": "Fake google search meme",
         "usage": "{tr}fakegs search query ; what you mean text",
-        "examples": "{tr}fakegs Codexuserbot ; One of the Popular userbot",
+        "examples": "{tr}fakegs AudyNesia ; One of the Popular userbot",
     },
 )
 async def nekobot(cod):
@@ -65,7 +65,7 @@ async def nekobot(cod):
     info={
         "header": "trump tweet sticker with given custom text",
         "usage": "{tr}trump <text>",
-        "examples": "{tr}trump Codexuserbot is One of the Popular userbot",
+        "examples": "{tr}trump AudyNesia is One of the Popular userbot",
     },
 )
 async def nekobot(cod):
@@ -96,7 +96,7 @@ async def nekobot(cod):
     info={
         "header": "modi tweet sticker with given custom text",
         "usage": "{tr}modi <text>",
-        "examples": "{tr}modi Codexuserbot is One of the Popular userbot",
+        "examples": "{tr}modi AudyNesia is One of the Popular userbot",
     },
 )
 async def nekobot(cod):
@@ -127,7 +127,7 @@ async def nekobot(cod):
     info={
         "header": "Change my mind banner with given custom text",
         "usage": "{tr}cmm <text>",
-        "examples": "{tr}cmm Codexuserbot is One of the Popular userbot",
+        "examples": "{tr}cmm AudyNesia is One of the Popular userbot",
     },
 )
 async def nekobot(cod):
@@ -157,7 +157,7 @@ async def nekobot(cod):
     info={
         "header": "kanna chan sticker with given custom text",
         "usage": "{tr}kanna text",
-        "examples": "{tr}kanna Codexuserbot is One of the Popular userbot",
+        "examples": "{tr}kanna AudyNesia is One of the Popular userbot",
     },
 )
 async def nekobot(cod):
@@ -188,7 +188,7 @@ async def nekobot(cod):
     info={
         "header": "The desired person tweet sticker with given custom text",
         "usage": "{tr}tweet <username> ; <text>",
-        "examples": "{tr}tweet iamsrk ; Codexuserbot is One of the Popular userbot",
+        "examples": "{tr}tweet iamsrk ; AudyNesia is One of the Popular userbot",
     },
 )
 async def nekobot(cod):

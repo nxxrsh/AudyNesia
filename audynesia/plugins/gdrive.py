@@ -42,7 +42,7 @@ from . import (
 LOGS = logging.getLogger(__name__)
 plugin_category = "misc"
 
-# Codexusebot Google Drive managers  ported from Projectbish and added extra things by @mrconfused
+# AudyNesiausebot Google Drive managers  ported from Projectbish and added extra things by @mrconfused
 
 
 # =========================================================== #
@@ -609,7 +609,7 @@ async def upload(gdrive, service, file_path, file_name, mimeType, dir_id=None):
         pass
     body = {
         "name": file_name,
-        "description": "Uploaded from Telegram using Codexuserbot.",
+        "description": "Uploaded from Telegram using AudyNesia.",
         "mimeType": mimeType,
         "parents": [dir_id] if dir_id is not None else [GDRIVE_.parent_Id],
     }

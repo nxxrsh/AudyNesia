@@ -26,8 +26,8 @@ tutor = """
 """
 
 template = """
-Thank you for Using Codex
-Support: @CodexSupportGroup
+Thank you for Using AudyNesia
+Support: @AudyNesiaSupportGroup
             
 <code>STRING_SESSION</code>: <code>{}</code>
 ⚠️ <b>Please be carefull to pass this value to third parties</b>"""

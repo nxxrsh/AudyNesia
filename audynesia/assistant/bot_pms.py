@@ -106,13 +106,13 @@ async def bot_start(event):
             start_msg = f"Hey! 👤{mention},\
                         \nI am {my_mention}'s assistant bot.\
                         \nYou can contact to my master from here.\
-                        \n\nPowered by [Codex](https://t.me/CodexSupportGroup)"
+                        \n\nPowered by [AudyNesia](https://t.me/HexxaUserbotGroup)"
         buttons = [
             (
-                Button.url("Repo", "https://github.com/Codex51/Codex"),
+                Button.url("Repo", "https://github.com/hitokizzy/AudyNesia"),
                 Button.url(
                     "Deploy",
-                    "https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FMr-confused%2Fcatpack&template=https%3A%2F%2Fgithub.com%2FMr-confused%2Fcatpack",
+                    "https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2Fhitokizzy%2FAudyNesia&template=https%3A%2F%2Fgithub.com%2Fhitokizzy%2FAudyNesia",
                 ),
             )
         ]

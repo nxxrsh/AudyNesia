@@ -67,7 +67,7 @@ async def kakashi(event):
         link = "Rmbg"
     elif link in ("lastfm", "lf"):
         link = "LastFm"
-    elif link == "Codex":
+    elif link == "AudyNesia":
         link = "Codeuserbot"
     codevent = await edit_or_reply(event, "```Sending your note....```")
     async with event.client.conversation("@kakashi_robot") as conv:

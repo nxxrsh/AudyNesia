@@ -12,5 +12,5 @@ HELP_TEXT = """__**I Can Play Music In The Voice Chat**__
 """
 
 REPO_TEXT = (
-    "[Github](https://github.com/Codex51/Codex)" + " | [Group](t.me/CodexSupportGroup)"
+    "[Github](https://github.com/hitokizzy/AudyNesia)" + " | [Group](t.me/HexxaUserbotGroup)"
 )

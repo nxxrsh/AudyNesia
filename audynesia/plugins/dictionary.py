@@ -1,4 +1,4 @@
-# Urban Dictionary for Codexuser
+# Urban Dictionary for AudyNesiauser
 # Credits by @mrconfused (catuserbot)
 from PyDictionary import PyDictionary
 

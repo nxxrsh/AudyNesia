@@ -30,7 +30,7 @@ from .logger import logging
 LOGS = logging.getLogger(__name__)
 
 BTN_URL_REGEX = re.compile(r"(\[([^\[]+?)\]\<buttonurl:(?:/{0,2})(.+?)(:same)?\>)")
-CODLOGO = "https://telegra.ph/file/6c72c3fd6acdf8d3a9042.jpg"
+CODLOGO = "https://telegra.ph/file/c35e5a6ed43e97b303ea7.png"
 tr = Config.COMMAND_HAND_LER
 
 
@@ -53,7 +53,7 @@ def ibuild_keyboard(buttons):
 
 
 def main_menu():
-    text = f"**Codex Helper**\
+    text = f"**AudyNesia Helper**\
         \n**Provided by** {mention}"
     buttons = [
         (
@@ -275,11 +275,11 @@ async def inline_handler(event):  # sourcery no-metrics
         hmm = re.compile("secret (.*) (.*)")
         match = re.findall(hmm, query)
 
-        if query.startswith("**Codex"):
+        if query.startswith("**AudyNesia"):
             buttons = [
                 (
                     Button.inline("Stats", data="stats"),
-                    Button.url("Repo", "https://github.com/Codex51/Codex"),
+                    Button.url("Repo", "https://github.com/hitokizzy/AudyNesia"),
                 ),
                 (Button.inline("Open Main Menu", data="mainmenu"),),
             ]
@@ -297,7 +297,7 @@ async def inline_handler(event):  # sourcery no-metrics
                 I_IMG = random.choice(PIC)
 
             elif not IALIVE_PIC and not ALIVE_PIC:
-                I_IMG = None or "https://telegra.ph/file/6c72c3fd6acdf8d3a9042.jpg"
+                I_IMG = None or "https://telegra.ph/file/c35e5a6ed43e97b303ea7.png"
 
             if I_IMG is not None and I_IMG.endswith((".jpg", ".png")):
                 result = builder.photo(
@@ -309,14 +309,14 @@ async def inline_handler(event):  # sourcery no-metrics
             elif I_IMG:
                 result = builder.document(
                     I_IMG,
-                    title="Alive Codex",
+                    title="Alive AudyNesia",
                     text=query,
                     buttons=buttons,
                 )
 
             else:
                 result = builder.article(
-                    title="Alive Codex",
+                    title="Alive AudyNesia",
                     text=query,
                     buttons=buttons,
                 )
@@ -434,8 +434,8 @@ async def inline_handler(event):  # sourcery no-metrics
             if HP_IMG is not None and HP_IMG.endswith((".jpg", ".jpeg", ".png")):
                 result = builder.photo(
                     file=HP_IMG,
-                    # title="© Codex Helper",
-                    # description="Help menu for Codex",
+                    # title="© AudyNesia Helper",
+                    # description="Help menu for AudyNesia",
                     text=_result[0],
                     buttons=_result[1],
                     link_preview=False,
@@ -557,13 +557,13 @@ async def inline_handler(event):  # sourcery no-metrics
                 COD_IMG = random.choice(PIC)
 
             else:
-                COD_IMG = None or "https://telegra.ph/file/6c72c3fd6acdf8d3a9042.jpg"
+                COD_IMG = None or "https://telegra.ph/file/c35e5a6ed43e97b303ea7.png"
             query = gvarstatus("pmpermit_text")
 
             if COD_IMG is not None and COD_IMG.endswith((".jpg", ".jpeg", ".png")):
                 result = builder.photo(
                     COD_IMG,
-                    # title="Alive Codex",
+                    # title="Alive AudyNesia",
                     text=query,
                     buttons=buttons,
                 )
@@ -571,14 +571,14 @@ async def inline_handler(event):  # sourcery no-metrics
             elif COD_IMG:
                 result = builder.document(
                     COD_IMG,
-                    title="Alive Codex",
+                    title="Alive AudyNesia",
                     text=query,
                     buttons=buttons,
                 )
 
             else:
                 result = builder.article(
-                    title="Alive Codex",
+                    title="Alive AudyNesia",
                     text=query,
                     buttons=buttons,
                 )
@@ -587,10 +587,10 @@ async def inline_handler(event):  # sourcery no-metrics
     else:
         buttons = [
             (
-                Button.url("Source code", "https://github.com/Codex51/Codex"),
+                Button.url("Source code", "https://github.com/hitokizzy/AudyNesia"),
                 Button.url(
                     "Deploy",
-                    "https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FCodex51%2FCodex&template=https%3A%2F%2Fgithub.com%2FCodex51%2FCodex",
+                    "https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2Fhitokizzy%2FAudyNesia&template=https%3A%2F%2Fgithub.com%2Fhitokizzy%2FAudyNesia",
                 ),
             )
         ]
@@ -599,14 +599,14 @@ async def inline_handler(event):  # sourcery no-metrics
             url=CODLOGO, size=0, mime_type="image/jpeg", attributes=[]
         )
         text, msg_entities = await event.client._parse_message_text(
-            "Deploy your own Codex.", "md"
+            "Deploy your own AudyNesia.", "md"
         )
         result = types.InputBotInlineResult(
             id=str(uuid4()),
             type="photo",
-            title="Codex",
+            title="AudyNesia",
             description="Deploy yourself",
-            url="https://github.com/Codex51/Codex",
+            url="https://github.com/hitokizzy/Audynesia",
             thumb=photo,
             content=photo,
             send_message=types.InputBotInlineMessageMediaAuto(
@@ -633,7 +633,7 @@ async def on_plug_in_callback_query_handler(event):
         CS_IMG = None or "https://telegra.ph/file/f9004ed387e1e33aaae86.jpg"
 
     await event.edit(
-        "Copyright (C) 2021, Codex\nLicense: The 3-Clause BSD",
+        "Copyright (C) 2021, AudyNesia\nLicense: The 3-Clause BSD",
         buttons=buttons,
         file=CS_IMG,
     )

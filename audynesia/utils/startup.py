@@ -24,7 +24,7 @@ from ..sql_helper.globals import addgvar, delgvar, gvarstatus
 from .pluginmanager import load_module
 from .tools import create_supergroup
 
-LOGS = logging.getLogger("CodexUserbot")
+LOGS = logging.getLogger("AudyNesia")
 cmdhr = Config.COMMAND_HAND_LER
 
 
@@ -66,8 +66,8 @@ async def startupmessage():
             Config.CODLOGO = await udy.tgbot.send_file(
                 BOTLOG_CHATID,
                 "https://telegra.ph/file/c6f5ed625c0fb1c2480f7.jpg",
-                caption="**Codex has been started successfully.**",
-                buttons=[(Button.url("Support", "https://t.me/CodexSupportGroup"),)],
+                caption="**AudyNesia has been started successfully.**",
+                buttons=[(Button.url("Support", "https://t.me/AudyNesiaSupportGroup"),)],
             )
     except Exception as e:
         LOGS.error(e)
@@ -83,10 +83,10 @@ async def startupmessage():
         if msg_details:
             await udy.check_testcases()
             message = await udy.get_messages(msg_details[0], ids=msg_details[1])
-            text = f"[Codex](t.me/CodexUserbot) **is Back up and Running...**\n\n"
+            text = f"[AudyNesia](t.me/AudyNesia) **is Back up and Running...**\n\n"
             text += f"`Telethon :` __v{version.__version__}__\n"
             text += f"`Python   :` __v{python_version()}__\n"
-            text += f"`Codex    :`  __v{codversion}__\n"
+            text += f"`AudyNesia    :`  __v{codversion}__\n"
             await udy.edit_message(msg_details[0], msg_details[1], text)
             if gvarstatus("restartupdate") is not None:
                 await udy.send_message(
@@ -213,7 +213,7 @@ async def verifyLoggerGroup():
     else:
         descript = "Don't delete this group or change to group(If you change group all your previous snips, welcome will be lost.)"
         _, groupid = await create_supergroup(
-            "Codex (LOGS Group)", udy, Config.TG_BOT_USERNAME, descript
+            "AudyNesia (LOGS Group)", udy, Config.TG_BOT_USERNAME, descript
         )
         addgvar("PRIVATE_GROUP_BOT_API_ID", groupid)
         print(

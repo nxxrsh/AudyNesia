@@ -48,7 +48,7 @@ async def stylish_generator(event):
             "{tr}ancient <text>",
             "{tr}ancient reply this command to text message",
         ],
-        "examples": "{tr}ancient codexserbot",
+        "examples": "{tr}ancient AudyNesiaserbot",
     },
 )
 async def stylish_generator(event):
@@ -230,7 +230,7 @@ async def stylish_generator(event):
     info={
         "header": "Font style command.(Changes font style of the given text)",
         "usage": ["{tr}boxf <text>", "{tr}boxf reply this command to text message"],
-        "examples": "{tr}boxf codexserbot",
+        "examples": "{tr}boxf AudyNesiaserbot",
     },
 )
 async def stylish_generator(event):
@@ -261,7 +261,7 @@ async def stylish_generator(event):
             "{tr}smothtext <text>",
             "{tr}smothtext reply this command to text message",
         ],
-        "examples": "{tr}smothtext codexserbot",
+        "examples": "{tr}smothtext AudyNesiaserbot",
     },
 )
 async def stylish_generator(event):
@@ -289,7 +289,7 @@ async def stylish_generator(event):
     info={
         "header": "Font style command.(Changes font style of the given text)",
         "usage": ["{tr}egyptf <text>", "{tr}egyptf reply this command to text message"],
-        "examples": "{tr}egyptf codexserbot",
+        "examples": "{tr}egyptf AudyNesiaserbot",
     },
 )
 async def stylish_generator(event):
@@ -317,7 +317,7 @@ async def stylish_generator(event):
     info={
         "header": "Font style command.(Changes font style of the given text)",
         "usage": ["{tr}maref <text>", "{tr}maref reply this command to text message"],
-        "examples": "{tr}maref codexserbot",
+        "examples": "{tr}maref AudyNesiaserbot",
     },
 )
 async def stylish_generator(event):
@@ -345,7 +345,7 @@ async def stylish_generator(event):
     info={
         "header": "Font style command.(Changes font style of the given text)",
         "usage": ["{tr}handcf <text>", "{tr}handcf reply this command to text message"],
-        "examples": "{tr}handcf codexserbot",
+        "examples": "{tr}handcf AudyNesiaserbot",
     },
 )
 async def stylish_generator(event):
@@ -376,7 +376,7 @@ async def stylish_generator(event):
             "{tr}doublef <text>",
             "{tr}doublef reply this command to text message",
         ],
-        "examples": "{tr}doublef codexserbot",
+        "examples": "{tr}doublef AudyNesiaserbot",
     },
 )
 async def stylish_generator(event):
@@ -404,7 +404,7 @@ async def stylish_generator(event):
     info={
         "header": "Font style command.(Changes font style of the given text)",
         "usage": ["{tr}mock <text>", "{tr}mock reply this command to text message"],
-        "examples": "{tr}mock codexserbot",
+        "examples": "{tr}mock AudyNesiaserbot",
     },
 )
 async def spongemocktext(mock):
@@ -436,7 +436,7 @@ async def spongemocktext(mock):
     info={
         "header": "Font style command.(Changes font style of the given text)",
         "usage": ["{tr}ghostf <text>", "{tr}ghostf reply this command to text message"],
-        "examples": "{tr}ghostf codexserbot",
+        "examples": "{tr}ghostf AudyNesiaserbot",
     },
 )
 async def stylish_generator(event):
@@ -464,7 +464,7 @@ async def stylish_generator(event):
     info={
         "header": "Font style command.(Changes font style of the given text)",
         "usage": ["{tr}handsf <text>", "{tr}handsf reply this command to text message"],
-        "examples": "{tr}handsf codexserbot",
+        "examples": "{tr}handsf AudyNesiaserbot",
     },
 )
 async def stylish_generator(event):

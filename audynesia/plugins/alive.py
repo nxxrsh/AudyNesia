@@ -38,7 +38,7 @@ async def amireallyalive(event):
     uptime = await get_readable_time((time.time() - StartTime))
     _, check_sgnirts = check_data_base_heal_th()
     EMOJI = gvarstatus("ALIVE_EMOJI") or "•"
-    ALIVE_TEXT = gvarstatus("ALIVE_TEXT") or "「 CODEX IS RUNNING SUCCESSFULLY 」"
+    ALIVE_TEXT = gvarstatus("ALIVE_TEXT") or "「 AudyNesia IS RUNNING SUCCESSFULLY 」"
     COD_IMG = gvarstatus("ALIVE_PIC")
     if COD_IMG:
         A_IMG = [x for x in COD_IMG.split()]
@@ -76,7 +76,7 @@ async def amireallyalive(event):
             f"`━─━────༺༻────━─━`\n"
             f"{EMOJI} `Uptime:` __{uptime}__\n"
             f"`━─━────༺༻────━─━`\n"
-            f"{EMOJI} `Codex:` __v{codversion}__\n"
+            f"{EMOJI} `AudyNesia:` __v{codversion}__\n"
             f"`━─━────༺༻────━─━`\n"
             f"{EMOJI} `Telethon:` __v{version.__version__}__\n"
             f"`━─━────༺༻────━─━`\n"
@@ -104,7 +104,7 @@ async def amireallyalive(event):
     EMOJI = gvarstatus("ALIVE_EMOJI") or "•"
     cod_caption = f"**AudyNesia** `is Up` and __Running...__\n\n"
     cod_caption += f"{EMOJI} `Telethon :` __v{version.__version__}__\n"
-    cod_caption += f"{EMOJI} `Codex    :` __v{codversion}__\n"
+    cod_caption += f"{EMOJI} `AudyNesia    :` __v{codversion}__\n"
     cod_caption += f"{EMOJI} `Python   :` __v{python_version()}__\n"
     cod_caption += f"{EMOJI} `User     :` {mention}\n"
     results = await event.client.inline_query(Config.TG_BOT_USERNAME, cod_caption)
