@@ -20,7 +20,7 @@
    <i><b>Codex</b> is very useful for purposes in the telegram application, it can be for personal use or managing a group.</i>
        <br>
        <br>
-   <b>Note: <i>If you are already using codex, don't forget to read our disclaimer, thank you.</i> </b>
+   <b>Note: <i>If you are already using udy, don't forget to read our disclaimer, thank you.</i> </b>
    </details>
 
    <br><br><details>
@@ -178,7 +178,7 @@
   <p><b>11. Create a new screen:</b></p>
   <p>Either tmux or screenfor screen</p>
   <p><code> sudo apt install screen </code></p>
-  <p><code> screen -S usercodex </code><a> for tmux </a></p>
+  <p><code> screen -S audynesia </code><a> for tmux </a></p>
   <p><code> sudo apt install tmux </code></p>
   <p><code> tmux </code></p><br>
   <p><b>12. And a virtual environment:</b></p>
@@ -187,8 +187,8 @@
   <p><code> source venv/bin/activate </code></p><br>
   <p><b>14. And install the Python requirements:</b></p>
   <p><code> pip3 install -r requirements.txt </code></p><br>
-  <p><b>15. Finally, run the usercodex:</b></p>
-  <p><code> python3 -m usercodex </code></p>
+  <p><b>15. Finally, run the audynesia:</b></p>
+  <p><code> python3 -m audynesia </code></p>
   <p><b>16. And get out of your screen</b></p>
   <i>by pressing CTRL+A and after that CTRL+D. (if you used screen)</i>
   <i>or</i>

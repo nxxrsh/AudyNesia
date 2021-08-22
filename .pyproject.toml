@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "usercodex"
+name = "audynesia"
 version = "0.4.7"
 description = "Script for generating Telegram Session in Telethon or Pyrogram"
 authors = ["KENZO-404 <latukolan404@gmail.com>"]
