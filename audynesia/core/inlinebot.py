@@ -630,7 +630,7 @@ async def on_plug_in_callback_query_handler(event):
         CS_IMG = random.choice(PIC)
 
     else:
-        CS_IMG = None or "https://telegra.ph/file/f9004ed387e1e33aaae86.jpg"
+        CS_IMG = None or "https://telegra.ph/file/33c7df54ffb50c87209b0.png"
 
     await event.edit(
         "Copyright (C) 2021, AudyNesia\nLicense: The 3-Clause BSD",
@@ -707,7 +707,7 @@ async def on_plug_in_callback_query_handler(event):
         HP_IMG = random.choice(PIC)
 
     else:
-        HP_IMG = None or "https://telegra.ph/file/bc031ec9408a0c962ae87.mp4"
+        HP_IMG = None or "https://telegra.ph/file/33c7df54ffb50c87209b0.png"
 
     await event.edit(_result[0], buttons=_result[1], file=HP_IMG)
 

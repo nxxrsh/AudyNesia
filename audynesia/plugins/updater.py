@@ -192,7 +192,7 @@ async def push(event, repo, ups_rem, ac_br, txt):
         "options": {
             "-pull": "Will update bot but requirements doesnt update.",
             "-push": "Bot will update completly with requirements also.",
-            "udy -master": "to update to the original repository, if you fork.",
+            "AudyNesia -master": "to update to the original repository, if you fork.",
         },
         "usage": [
             "{tr}update",
