@@ -7,7 +7,7 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 
 from ..Config import Config
-from . import udy, deEmojify, edit_or_reply
+from . import deEmojify, edit_or_reply, udy
 
 plugin_category = "utils"
 

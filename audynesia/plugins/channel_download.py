@@ -10,7 +10,7 @@ import os
 import subprocess
 
 from ..Config import Config
-from . import udy, edit_or_reply
+from . import edit_or_reply, udy
 
 plugin_category = "tools"
 

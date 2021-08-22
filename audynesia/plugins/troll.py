@@ -8,7 +8,7 @@ You remove this, you gay.
 from telethon.errors.rpcerrorlist import YouBlockedUserError
 
 from ..core.managers import edit_delete, edit_or_reply
-from . import udy, reply_id
+from . import reply_id, udy
 
 plugin_category = "fun"
 

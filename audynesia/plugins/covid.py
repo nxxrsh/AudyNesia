@@ -3,7 +3,7 @@
 
 from covid import Covid
 
-from . import udy, covidindo, edit_delete, edit_or_reply
+from . import covidindo, edit_delete, edit_or_reply, udy
 
 plugin_category = "extra"
 

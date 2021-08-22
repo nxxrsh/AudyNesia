@@ -1,7 +1,7 @@
 import asyncio
 from collections import deque
 
-from . import udy, edit_or_reply, mention
+from . import edit_or_reply, mention, udy
 
 plugin_category = "fun"
 

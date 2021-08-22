@@ -8,11 +8,11 @@ from . import (
     CMD_HELP,
     CMD_LIST,
     SUDO_LIST,
-    udy,
     edit_delete,
     edit_or_reply,
     hmention,
     reply_id,
+    udy,
 )
 
 plugin_category = "tools"

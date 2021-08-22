@@ -144,9 +144,7 @@ async def get_curr_track(lfmbio):  # sourcery no-metrics
                         )
             except FloodWaitError as err:
                 if BOTLOG and LASTFM_.LastLog:
-                    await udy.send_message(
-                        BOTLOG_CHATID, f"Error changing bio:\n{err}"
-                    )
+                    await udy.send_message(BOTLOG_CHATID, f"Error changing bio:\n{err}")
         except FloodWaitError as err:
             if BOTLOG and LASTFM_.LastLog:
                 await udy.send_message(BOTLOG_CHATID, f"Error changing bio:\n{err}")

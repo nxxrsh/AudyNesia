@@ -11,9 +11,9 @@ from . import (
     BOTLOG,
     BOTLOG_CHATID,
     DEFAULT_BIO,
-    udy,
     edit_delete,
     get_user_from_event,
+    udy,
 )
 
 plugin_category = "utils"
