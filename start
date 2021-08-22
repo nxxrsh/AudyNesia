@@ -108,7 +108,7 @@ _set_bot () {
            ╚██████╔╝██████╔╝███████╗██║░░██║██████╦╝╚█████╔╝░░░██║░░░
            ░╚═════╝░╚═════╝░╚══════╝╚═╝░░╚═╝╚═════╝░░╚════╝░░░░╚═╝░░░
     "
-    python3 -m userAudyNesia & python3 main.py
+    python3 -m AudyNesia & python3 main.py
 }
 
 _set_bot
