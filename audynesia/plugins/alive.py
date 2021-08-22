@@ -38,8 +38,8 @@ async def amireallyalive(event):
     uptime = await get_readable_time((time.time() - StartTime))
     _, check_sgnirts = check_data_base_heal_th()
     EMOJI = gvarstatus("ALIVE_EMOJI") or "•"
-    ALIVE_TEXT = gvarstatus("ALIVE_TEXT") or "「 AudyNesia IS RUNNING SUCCESSFULLY 」"
-    COD_IMG = gvarstatus("ALIVE_PIC")
+    ALIVE_TEXT = gvarstatus("ALIVE_TEXT") or "**AudyNesia Userbot**"
+    COD_IMG = gvarstatus("ALIVE_PIC") or "https://telegra.ph/file/33c7df54ffb50c87209b0.png"
     if COD_IMG:
         A_IMG = [x for x in COD_IMG.split()]
         PIC = random.choice(A_IMG)
