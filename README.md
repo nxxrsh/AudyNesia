@@ -139,7 +139,7 @@
     <p> Deploy using heroku, and don't forget to register first. </p>
     <p>👇🏻 Click </p>
     <p align="left">
-       (https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/hitokizzy/AudyNesia)
+       [(https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/hitokizzy/AudyNesia)
     </p>
     <br>
   </details><br>
