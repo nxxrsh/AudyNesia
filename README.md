@@ -139,7 +139,7 @@
     <p> Deploy using heroku, and don't forget to register first. </p>
     <p>👇🏻 Click </p>
     <p align="left">
-       [(https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/hitokizzy/AudyNesia)
+       
     </p>
     <br>
   </details><br>
@@ -238,3 +238,9 @@ and you ended up in a Finale Battle with Telegram and at the end
 * [Hexxa-Team](https://github.com/Hexxa-Team)
 # License 
 AudyNesia is License under [The 3-Clause BSD License](https://opensource.org/licenses/BSD-3-Clause)
+
+
+
+
+[(https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/hitokizzy/AudyNesia)
+
