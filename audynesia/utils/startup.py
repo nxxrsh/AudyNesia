@@ -67,9 +67,7 @@ async def startupmessage():
                 BOTLOG_CHATID,
                 "https://telegra.ph/file/33c7df54ffb50c87209b0.png",
                 caption="**AudyNesia has been started successfully.**",
-                buttons=[
-                    (Button.url("Support", "https://t.me/HexxaUserbotGroup"),)
-                ],
+                buttons=[(Button.url("Support", "https://t.me/HexxaUserbotGroup"),)],
             )
     except Exception as e:
         LOGS.error(e)
