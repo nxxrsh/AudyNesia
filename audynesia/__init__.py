@@ -9,7 +9,7 @@ from .sql_helper.globals import addgvar, delgvar, gvarstatus
 
 __version__ = "0.02"
 __license__ = "BSD-3-Clause License"
-__author__ = "AudyNesia <https://github.com/hitokizzy/audyNesia>"
+__author__ = "izzy <https://github.com/hitokizzy/audyNesia>"
 __copyright__ = "Copyright (C) 2021, " + __author__
 
 udy.version = __version__

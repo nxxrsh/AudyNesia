@@ -83,7 +83,7 @@ async def startupmessage():
         if msg_details:
             await udy.check_testcases()
             message = await udy.get_messages(msg_details[0], ids=msg_details[1])
-            text = f"[AudyNesia](t.me/AudyNesia) **is Back up and Running...**\n\n"
+            text = f"[AudyNesia](t.me/kang_keong17) **is Back up and Running...**\n\n"
             text += f"`Telethon :` __v{version.__version__}__\n"
             text += f"`Python   :` __v{python_version()}__\n"
             text += f"`AudyNesia    :`  __v{codversion}__\n"

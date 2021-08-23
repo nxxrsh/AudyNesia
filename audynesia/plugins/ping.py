@@ -29,13 +29,13 @@ async def _(event):
         end = datetime.now()
         tms = (end - start).microseconds / 1000
         ms = round((tms - 0.6) / 3, 3)
-        await codevent.edit(f"**☞ Pong!**\n➥ {ms} ms")
+        await codevent.edit(f"**Pong!**\n {ms} ms")
     else:
         codevent = await edit_or_reply(event, "<b><i>☞ Pong!</b></i>", "html")
         end = datetime.now()
         ms = (end - start).microseconds / 1000
         await codevent.edit(
-            f"<b><i>☞ Pong</b></i>\n➥ {ms} <b><i>ms\n➥ Bot of {hmention}</b></i>",
+            f"<b><i>Pong!</b></i>\nPing: {ms} <b><i>ms\nBot of {hmention}</b></i>",
             parse_mode="html",
         )
 
@@ -59,7 +59,7 @@ async def _(event):
     start = datetime.now()
     cod = await edit_or_reply(
         event,
-        "<b><i>“Everyone fails at who they are supposed to be. The measure of a person, of a hero…is how well they succeed at being who they are” !! ⚡ </b></i>",
+        "<b><i>“Everyone fails at who they are supposed to be. The measure of a person, of a hero… is how well they succeed at being who they are” !! </b></i>",
         "html",
     )
     end = datetime.now()
@@ -67,7 +67,7 @@ async def _(event):
     await cod.delete()
     ms = (end - start).microseconds / 1000
     if PING_PIC:
-        caption = f"<b><i>{PING_TEXT}<i><b>\n<code> {ms} ms</code>\n <b><i>  Aѵҽղցҽɾ  ☞  {hmention}</b></i>"
+        caption = f"<b><i>{PING_TEXT}<i><b>\n<code> {ms} ms</code>\n <b><i>  AudyNesia  ☞  {hmention}</b></i>"
         await event.client.send_file(
             event.chat_id,
             PING_PIC,
@@ -78,4 +78,4 @@ async def _(event):
             allow_cache=True,
         )
     else:
-        await edit_or_reply(event, "<code>Add PING_PIC first nubh.<code>", "html")
+        await edit_or_reply(event, "<code>Add PING_PIC first.<code>", "html")

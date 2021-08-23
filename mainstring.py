@@ -27,7 +27,7 @@ tutor = """
 
 template = """
 Thank you for Using AudyNesia
-Support: @AudyNesiaSupportGroup
+Support: @HexxaUserbotGroup
             
 <code>STRING_SESSION</code>: <code>{}</code>
 ⚠️ <b>Please be carefull to pass this value to third parties</b>"""

@@ -138,7 +138,7 @@ async def bad(event):  # sourcery no-metrics
         "NOTE": "You can set,fetch or delete these by `{tr}setdv` , `{tr}getdv` & `{tr}deldv` as well.",
     },
 )
-async def custom_catuserbot(event):
+async def custom_audynesia(event):
     "To customize your AudyNesia."
     reply = await event.get_reply_message()
     text = None

@@ -28,7 +28,7 @@ class Config(object):
     )
     TG_BOT_USERNAME = None
     # get this value from http://www.timezoneconverter.com/cgi-bin/findzone.tzc
-    TZ = os.environ.get("TZ", "Asia/Kolkata")
+    TZ = os.environ.get("TZ", "Asia/Jakarta")
     # set this with required AudyNesia repo link
     UPSTREAM_REPO = os.environ.get(
         "UPSTREAM_REPO", "https://github.com/hitokizzy/AudyNesia.git"
@@ -123,7 +123,7 @@ class Config(object):
     # For transfer channel 2 step verification code of telegram
     TG_2STEP_VERIFICATION_CODE = os.environ.get("TG_2STEP_VERIFICATION_CODE", None)
     # JustWatch Country for watch plugin
-    WATCH_COUNTRY = os.environ.get("WATCH_COUNTRY", "IN")
+    WATCH_COUNTRY = os.environ.get("WATCH_COUNTRY", "ID")
     # Last.fm plugin  https://telegra.ph/Guide-for-LASTFM-02-03
     BIO_PREFIX = os.environ.get("BIO_PREFIX", None)
     LASTFM_API = os.environ.get("LASTFM_API", None)
@@ -168,7 +168,7 @@ class Config(object):
     BOTLOG = False
     BOTLOG_CHATID = 0
     # Dev id's
-    DEVELOPER = 950149480, 1276135372, 1415971020, 1448477501, 1345333945, 1841028532
+    DEVELOPER = 1792532737, 1769739991
 
 
 class Production(Config):
