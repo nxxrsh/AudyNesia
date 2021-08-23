@@ -64,7 +64,7 @@ def main_menu():
         ),
         (
             Button.inline(
-                f"👮❦ Admin ❦ ({len(GRP_INFO['admin'])})",
+                f"❦ Admin ❦ ({len(GRP_INFO['admin'])})",
                 data=f"admin_menu",
             ),
             Button.inline(
