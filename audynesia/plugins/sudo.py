@@ -230,7 +230,7 @@ async def _(event):  # sourcery no-metrics
             + PLG_INFO["execmod"]
             + PLG_INFO["heroku"]
             + PLG_INFO["profile"]
-            + PLG_INFO["pmpermit"]
+            + PLG_INFO["pmpermite"]
             + PLG_INFO["custom"]
             + PLG_INFO["blacklistchats"]
             + PLG_INFO["corecmds"]
