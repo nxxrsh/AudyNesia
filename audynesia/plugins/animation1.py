@@ -18,22 +18,22 @@ async def _(event):
     "animation command"
     animation_interval = 1
     animation_ttl = range(14)
-    event = await edit_or_reply(event, "`Throw your brain in dustbin`")
+    event = await edit_or_reply(event, "`Buang otaknya hekel`")
     animation_chars = [
-        "YOᑌᖇ ᗷᖇᗩIᑎ ➡️ 🧠\n\n🧠         <(^_^ <)🗑",
-        "YOᑌᖇ ᗷᖇᗩIᑎ ➡️ 🧠\n\n🧠       <(^_^ <)  🗑",
-        "YOᑌᖇ ᗷᖇᗩIᑎ ➡️ 🧠\n\n🧠     <(^_^ <)    🗑",
-        "YOᑌᖇ ᗷᖇᗩIᑎ ➡️ 🧠\n\n🧠   <(^_^ <)      🗑",
-        "YOᑌᖇ ᗷᖇᗩIᑎ ➡️ 🧠\n\n🧠 <(^_^ <)        🗑",
-        "YOᑌᖇ ᗷᖇᗩIᑎ ➡️ 🧠\n\n🧠<(^_^ <)         🗑",
-        "YOᑌᖇ ᗷᖇᗩIᑎ ➡️ 🧠\n\n(> ^_^)>🧠         🗑",
-        "YOᑌᖇ ᗷᖇᗩIᑎ ➡️ 🧠\n\n  (> ^_^)>🧠       🗑",
-        "YOᑌᖇ ᗷᖇᗩIᑎ ➡️ 🧠\n\n    (> ^_^)>🧠     🗑",
-        "YOᑌᖇ ᗷᖇᗩIᑎ ➡️ 🧠\n\n      (> ^_^)>🧠   🗑",
-        "YOᑌᖇ ᗷᖇᗩIᑎ ➡️ 🧠\n\n        (> ^_^)>🧠 🗑",
-        "YOᑌᖇ ᗷᖇᗩIᑎ ➡️ 🧠\n\n          (> ^_^)>🧠🗑",
-        "YOᑌᖇ ᗷᖇᗩIᑎ ➡️ 🧠\n\n           (> ^_^)>🗑",
-        "YOᑌᖇ ᗷᖇᗩIᑎ ➡️ 🧠\n\n           <(^_^ <)🗑",
+        "OTAKNYA HEKEL ➡️ 🧠\n\n🧠         <(^_^ <)🗑",
+        "OTAKNYA HEKEL ➡️ 🧠\n\n🧠       <(^_^ <)  🗑",
+        "OTAKNYA HEKEL ➡️ 🧠\n\n🧠     <(^_^ <)    🗑",
+        "OTAKNYA HEKEL ➡️ 🧠\n\n🧠   <(^_^ <)      🗑",
+        "OTAKNYA HEKEL ➡️ 🧠\n\n🧠 <(^_^ <)        🗑",
+        "OTAKNYA HEKEL ➡️ 🧠\n\n🧠<(^_^ <)         🗑",
+        "OTAKNYA HEKEL ➡️ 🧠\n\n(> ^_^)>🧠         🗑",
+        "OTAKNYA HEKEL ➡️ 🧠\n\n  (> ^_^)>🧠       🗑",
+        "OTAKNYA HEKEL ➡️ 🧠\n\n    (> ^_^)>🧠     🗑",
+        "OTAKNYA HEKEL ➡️ 🧠\n\n      (> ^_^)>🧠   🗑",
+        "OTAKNYA HEKEL ➡️ 🧠\n\n        (> ^_^)>🧠 🗑",
+        "OTAKNYA HEKEL ➡️ 🧠\n\n          (> ^_^)>🧠🗑",
+        "OTAKNYA HEKEL ➡️ 🧠\n\n           (> ^_^)>🗑",
+        "OTAKNYA HEKEL ➡️ 🧠\n\n           <(^_^ <)🗑",
     ]
     for i in animation_ttl:
         await asyncio.sleep(animation_interval)
@@ -284,31 +284,31 @@ async def _(event):
 
 
 @udy.cod_cmd(
-    pattern="gangasta$",
-    command=("gangasta", plugin_category),
+    pattern="audy$",
+    command=("audy", plugin_category),
     info={
-        "header": "Fun animation try yourself to see.",
-        "usage": "{tr}gangasta",
+        "header": "sad story, very sad story.",
+        "usage": "{tr}audy",
     },
 )
 async def _(event):
     "animation command"
-    event = await edit_or_reply(event, "gangasta")
-    await event.edit("EVERyBOdy")
-    await asyncio.sleep(0.3)
-    await event.edit("iZ")
-    await asyncio.sleep(0.2)
-    await event.edit("GangSTur")
-    await asyncio.sleep(0.5)
-    await event.edit("UNtIL ")
-    await asyncio.sleep(0.2)
-    await event.edit("I")
-    await asyncio.sleep(0.3)
-    await event.edit("ArRivE")
-    await asyncio.sleep(0.3)
-    await event.edit("🔥🔥🔥")
-    await asyncio.sleep(0.3)
-    await event.edit("EVERyBOdy iZ GangSTur UNtIL I ArRivE 🔥🔥🔥")
+    event = await edit_or_reply(event, "audy")
+    await event.edit("Cerita Sedih...")
+    await asyncio.sleep(1)
+    await event.edit("Aku suka dia ❤️")
+    await asyncio.sleep(1)
+    await event.edit("Katanya dia juga suka aku ❤️")
+    await asyncio.sleep(1)
+    await event.edit("Tapi bohong... ")
+    await asyncio.sleep(1)
+    await event.edit("Dia malah pergi...")
+    await asyncio.sleep(1)
+    await event.edit("Diambil sama owner bertitle 😭")
+    await asyncio.sleep(1)
+    await event.edit("💔💔💔💔💔")
+    await asyncio.sleep(1)
+    await event.edit("Sedih kan jadi rakyat ga ada title 🔥❤️🔥❤️🔥")
 
 
 @udy.cod_cmd(

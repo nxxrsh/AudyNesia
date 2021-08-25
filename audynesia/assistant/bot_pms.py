@@ -106,7 +106,7 @@ async def bot_start(event):
             start_msg = f"Hey! 👤{mention},\
                         \nI am {my_mention}'s assistant bot.\
                         \nYou can contact to my master from here.\
-                        \n\nPowered by [AudyNesia](https://t.me/HexxaUserbotGroup)"
+                        \n\nPowered by [izzy](https://t.me/kang_keong17)"
         buttons = [
             (
                 Button.url("Repo", "https://github.com/hitokizzy/AudyNesia"),
