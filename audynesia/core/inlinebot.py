@@ -98,7 +98,7 @@ def main_menu():
                 data=f"extra_menu",
             ),
             Button.inline(
-                f"❦ Useless ({len(GRP_INFO['useless'])})",
+                f"❦ Useless ❦ ({len(GRP_INFO['useless'])})",
                 data=f"useless_menu",
             ),
         ),
@@ -428,7 +428,7 @@ async def inline_handler(event):  # sourcery no-metrics
                 HP_IMG = random.choice(PIC)
 
             else:
-                HP_IMG = None or "https://telegra.ph/file/33c7df54ffb50c87209b0.png"
+                HP_IMG = None or "https://telegra.ph/file/2a771833989c00e42b7f3.mp4"
             _result = main_menu()
 
             if HP_IMG is not None and HP_IMG.endswith((".jpg", ".jpeg", ".png")):
