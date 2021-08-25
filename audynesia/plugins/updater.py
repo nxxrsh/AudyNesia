@@ -289,7 +289,7 @@ async def upstream(event):
             "udy -master": "to update to the original repository, if you fork.",
         },
         "usage": [
-            "{tr}udy -master",
+            "{tr}AudyNesia -master",
         ],
     },
 )
