@@ -92,27 +92,27 @@ async def _(event):
 
 
 @udy.cod_cmd(
-    pattern="mepro$",
-    command=("mepro", plugin_category),
+    pattern="hekel$",
+    command=("hekel", plugin_category),
     info={
-        "header": "Fun animation try yourself to know more",
-        "usage": "{tr}mepro",
+        "header": "khusus buat bully hekel",
+        "usage": "{tr}hekel",
     },
 )
 async def _(event):
     "animation command"
     animation_interval = 1
     animation_ttl = range(8)
-    event = await edit_or_reply(event, "mepro")
+    event = await edit_or_reply(event, "hekel")
     animation_chars = [
-        "EvErYbOdY",
-        "iZ",
-        "PeRu",
-        "uNtiL",
-        "i",
-        "aRriVe",
+        "RENDI WAHIDIN",
+        "NYOLONG SCREEN SHOOT ADALAH JALAN NINJANYA",
+        "OTAK KOPONG TAPI NGAKUNYA HACKER",
+        "BACOT DOANG YANG GEDE",
+        "BISANYA CUMA SEBATAS BAN",
+        "TAPI PAKE BOT ORANG",
         "😈",
-        "EvErYbOdY iZ PeRu uNtiL i aRriVe 😈",
+        "HACKER KOK XDA, HACKER APA KANG SERVICE HP? 😈",
     ]
     for i in animation_ttl:
         await event.edit(animation_chars[i % 8])
