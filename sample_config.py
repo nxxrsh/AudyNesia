@@ -57,8 +57,15 @@ class Config(object):
     )
 
     # Pic ping
+<<<<<<< HEAD
     PING_PIC = os.environ.get("PING_PIC", "https://telegra.ph/file/4a0af964c0e29b7283dc1.png")
     PING_TEXT = os.environ.get("CUSTOM_PING_TEXT", "Audynesia Userbot")
+=======
+    PING_PIC = os.environ.get(
+        "PING_PIC", "https://telegra.ph/file/4a0af964c0e29b7283dc1.png"
+    )
+    PING_TEXT = os.environ.get("CUSTOM_PING_TEXT", None)
+>>>>>>> 7e87acefce05eec6d8f0619650d94511d6cb5852
 
     # Custom vars for userbot
     # set this will channel id of your custom plugins
