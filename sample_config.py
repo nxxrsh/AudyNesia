@@ -20,7 +20,7 @@ class Config(object):
     API_HASH = os.environ.get("API_HASH") or None
     # Datbase url heroku sets it automatically else get this from elephantsql
     DB_URI = os.environ.get("DATABASE_URL", None)
-    # Get this value by running python3 string_session.py at file resources or https://replit.com/@KENZO404/AudyNesia-strGen#main.py
+    # Get this value by running python3 string_session.py at file resources
     STRING_SESSION = os.environ.get("STRING_SESSION", None)
     # Telegram BOT Token and bot username from @BotFather
     TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN") or os.environ.get(
@@ -58,7 +58,7 @@ class Config(object):
 
     # Pic ping
     PING_PIC = os.environ.get("PING_PIC", "https://telegra.ph/file/4a0af964c0e29b7283dc1.png")
-    PING_TEXT = os.environ.get("CUSTOM_PING_TEXT", None)
+    PING_TEXT = os.environ.get("CUSTOM_PING_TEXT", "Audynesia Userbot")
 
     # Custom vars for userbot
     # set this will channel id of your custom plugins
