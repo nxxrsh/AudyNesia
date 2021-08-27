@@ -57,7 +57,9 @@ class Config(object):
     )
 
     # Pic ping
-    PING_PIC = os.environ.get("PING_PIC", "https://telegra.ph/file/4a0af964c0e29b7283dc1.png")
+    PING_PIC = os.environ.get(
+        "PING_PIC", "https://telegra.ph/file/4a0af964c0e29b7283dc1.png"
+    )
     PING_TEXT = os.environ.get("CUSTOM_PING_TEXT", None)
 
     # Custom vars for userbot

@@ -1,9 +1,9 @@
 import asyncio
-from collections import deque
 
-from . import edit_or_reply, mention, udy
+from . import edit_or_reply, udy
 
 plugin_category = "utils"
+
 
 @udy.cod_cmd(
     pattern="as$",
@@ -20,6 +20,7 @@ async def _(event):
     await asyncio.sleep(2)
     await event.edit("Assalamualaikum wr. wb.")
 
+
 @udy.cod_cmd(
     pattern="ws$",
     command=("ws", plugin_category),
@@ -34,4 +35,3 @@ async def _(event):
     await event.edit("huuyyyy")
     await asyncio.sleep(2)
     await event.edit("Waalaikum salam wr. wb.")
-   
