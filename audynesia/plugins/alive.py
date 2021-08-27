@@ -90,13 +90,13 @@ async def amireallyalive(event):
 
 
 @udy.cod_cmd(
-    pattern="ialive$",
-    command=("ialive", plugin_category),
+    pattern="AudyNesia$",
+    command=("AudyNesia", plugin_category),
     info={
         "header": "To check bot's alive status via inline mode",
         "options": "To show media in this cmd you need to set ALIVE_PIC with media link, get this by replying the media by .tgm",
         "usage": [
-            "{tr}alive",
+            "{tr}AudyNesia",
         ],
     },
 )
